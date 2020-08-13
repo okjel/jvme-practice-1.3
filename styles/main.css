@@ -1,0 +1,21 @@
+@import url('page/page.css');
+@import url('page/__body/page__body.css');
+
+@import url('header/header.css');
+@import url('header/__navigation-items/header__navigation-items.css');
+@import url('header/__logo/header__logo.css');
+@import url('nav-item/--icon--burger/nav-item--icon--burger.css');
+@import url('nav-item/--check-status/nav-item--icon--check-status.css');
+@import url('nav-item/--icon--repair/nav-item--icon--repair.css');
+
+@import url('decoration-element/decoration-element.css');
+
+@import url('nav-item/nav-item.css');
+
+
+*,::after,::before {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
