@@ -1,8 +1,4 @@
-.page__body {
+.about-us {
     display: flex;
     flex-direction: column;
-
-
-
-    min-width: 320px;
 }

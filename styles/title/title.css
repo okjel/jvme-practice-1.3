@@ -1,0 +1,16 @@
+.title {
+    display: flex;
+    align-items: center;
+    font-size: 28px;
+    line-height: 40px;
+}
+
+.title::before {
+    content: '';
+    display: block;
+    height: 40px;
+    border-right: 8px solid #41F6D7;
+    border-radius: 4px;
+    margin-left: -4px;
+    margin-right: 12px;
+}

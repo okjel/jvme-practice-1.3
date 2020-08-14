@@ -1,0 +1,6 @@
+.main__navigation-item {
+    flex-shrink: 0;
+
+    list-style: none;
+    margin-left: 16px;
+}
