@@ -1,0 +1,9 @@
+.header__decoration-element--position--between-profile-repair {
+    display: none;
+}
+
+@media (min-width: 768px){
+    .header__decoration-element--position--between-profile-repair {
+        display: list-item;
+    }
+}

@@ -6,13 +6,24 @@
 @import url('header/header.css');
 @import url('header/__navigation-items/header__navigation-items.css');
 @import url('header/__logo/header__logo.css');
+@import url('header/__burger-menu/header__burger-menu.css');
+@import url('header/__decoration-element/header__decoration-element.css');
+@import url('header/__navigation-item/header__navigation-item.css');
+@import url('header/__decoration-element/--position--between-burger-logo/header__decoration-element--position--between-burger-logo.css');
+@import url('header/__decoration-element/--position--between-profile-repair/header__decoration-element--position--between-profile-repair.css');
+
+@import url('nav-item/nav-item.css');
 @import url('nav-item/--icon--burger/nav-item--icon--burger.css');
 @import url('nav-item/--check-status/nav-item--icon--check-status.css');
 @import url('nav-item/--icon--repair/nav-item--icon--repair.css');
+@import url('nav-item/--icon--call/nav-item--icon--call.css');
+@import url('nav-item/--icon--chat/nav-item--icon--chat.css');
+@import url('nav-item/--icon--profile/nav-item--icon--profile.css');
 
 @import url('decoration-element/decoration-element.css');
 
-@import url('nav-item/nav-item.css');
+
+
 
 @import url('main/main.css');
 @import url('main/__title/main_title.css');
@@ -26,7 +37,7 @@
 @import url('about-us/__text-container/about-us__text-container.css');
 @import url('about-us/__text/about-us__text.css');
 @import url('about-us/__link-to-full-text/about-us__link-to-full-text.css');
-
+@import url('about-us/__image/about-us__image.css');
 
 @import url('text/text.css');
 

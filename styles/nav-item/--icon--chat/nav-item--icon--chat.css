@@ -1,0 +1,10 @@
+.nav-item--icon--chat {
+    background-image: url("/images/icons/chat.svg");
+    display: none;
+}
+
+@media (min-width: 768px) {
+    .nav-item--icon--chat {
+        display: block;
+    }
+}

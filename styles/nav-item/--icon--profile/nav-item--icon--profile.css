@@ -1,0 +1,10 @@
+.nav-item--icon--profile {
+    background-image: url("/images/icons/profile.svg");
+    display: none;
+}
+
+@media (min-width: 768px) {
+    .nav-item--icon--profile {
+        display: block;
+    }
+}

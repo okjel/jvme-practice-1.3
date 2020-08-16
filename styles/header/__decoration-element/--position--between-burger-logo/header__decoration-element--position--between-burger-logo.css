@@ -1,0 +1,9 @@
+.header__decoration-element--position--between-burger-logo {
+
+}
+
+@media (min-width: 768px){
+    .header__decoration-element--position--between-burger-logo {
+        order: 2;
+    }
+}

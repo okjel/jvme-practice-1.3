@@ -6,9 +6,14 @@
     
     justify-content: space-around;
     align-items: center;
-    flex-grow: 1;
 
     padding: 18px 0;
 }
 
+@media (min-width: 768px){
+    .header {
+        justify-content: space-between;
+        padding: 24px;
+    }
+}
 

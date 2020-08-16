@@ -1,0 +1,9 @@
+.header__burger-menu {
+
+}
+
+@media (min-width: 768px){
+    .header__burger-menu {
+        order: 1;
+    }
+}
