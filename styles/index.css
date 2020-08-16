@@ -9,6 +9,7 @@
 @import url('header/__burger-menu/header__burger-menu.css');
 @import url('header/__decoration-element/header__decoration-element.css');
 @import url('header/__navigation-item/header__navigation-item.css');
+@import url('header/__navigation-item/--no-margin/header__navigation-item--no-margin.css');
 @import url('header/__decoration-element/--position--between-burger-logo/header__decoration-element--position--between-burger-logo.css');
 @import url('header/__decoration-element/--position--between-profile-repair/header__decoration-element--position--between-profile-repair.css');
 
@@ -22,29 +23,33 @@
 
 @import url('decoration-element/decoration-element.css');
 
-
-
-
 @import url('main/main.css');
 @import url('main/__title/main_title.css');
 @import url('main/__navigation/main__navigation.css');
 @import url('main/__navigation-item/main__navigation-item.css');
 @import url('main/__navigation-item/--active/main__navigation-item--active.css');
 @import url('main/__content/main__content.css');
+@import url('main/__container/main__container.css');
 
 
 @import url('about-us/about-us.css');
+@import url('about-us/__text-container-inner/about-us__text-container-inner.css');
 @import url('about-us/__text-container/about-us__text-container.css');
 @import url('about-us/__text/about-us__text.css');
+@import url('about-us/__text/--bottom-space/about-us__text--bottom-space.css');
+@import url('about-us/__text/--display--size-m/about-us__text--display--size-m.css');
 @import url('about-us/__link-to-full-text/about-us__link-to-full-text.css');
 @import url('about-us/__image/about-us__image.css');
+@import url('about-us/__hidden-text/about-us__hidden-text.css');
+@import url('about-us/__hidden-text/--display--size-l/about-us__hidden-text--display--size-l.css');
+
 
 @import url('text/text.css');
 
 @font-face {
     font-family: 'TT Lakes';
     src: url('/fonts/TTLakes/TTLakes-Regular.eot');
-    src: local('/fonts/TTLakes/TT Lakes Regular'), local('TTLakes-Regular'),
+    src: local('TT Lakes Regular'), local('TTLakes-Regular'),
         url('/fonts/TTLakes/TTLakes-Black.eot?#iefix') format('embedded-opentype'),
         url('/fonts/TTLakes/TTLakes-Regular.woff') format('woff'),
         url('/fonts/TTLakes/TTLakes-Regular.ttf') format('truetype');
@@ -55,7 +60,7 @@
 @font-face {
     font-family: 'TT Lakes';
     src: url('/fonts/TTLakes/TTLakes-Italic.eot');
-    src: local('/fonts/TTLakes/TT Lakes Italic'), local('TTLakes-Italic'),
+    src: local('TT Lakes Italic'), local('TTLakes-Italic'),
         url('/fonts/TTLakes/TTLakes-Italic.eot?#iefix') format('embedded-opentype'),
         url('/fonts/TTLakes/TTLakes-Italic.woff') format('woff'),
         url('/fonts/TTLakes/TTLakes-Italic.ttf') format('truetype');
@@ -66,7 +71,7 @@
 @font-face {
     font-family: 'TT Lakes';
     src: url('/fonts/TTLakes/TTLakes-Bold.eot');
-    src: local('/fonts/TTLakes/TT Lakes Bold'), local('TTLakes-Bold'),
+    src: local('TT Lakes Bold'), local('TTLakes-Bold'),
         url('/fonts/TTLakes/TTLakes-Bold.eot?#iefix') format('embedded-opentype'),
         url('/fonts/TTLakes/TTLakes-Bold.woff') format('woff'),
         url('/fonts/TTLakes/TTLakes-Bold.ttf') format('truetype');

@@ -1,0 +1,10 @@
+.about-us__text--display--size-m {
+    display: none;
+}
+
+@media (min-width: 768px){
+    .about-us__text--display--size-m {
+        display: initial;
+    }
+    
+}

@@ -2,5 +2,11 @@
     flex-shrink: 0;
 
     list-style: none;
-    margin-left: 16px;
+
+    line-height: 24px;
+    margin-right: 16px;
+}
+
+.main__navigation-item:last-child {
+    margin-right: 0;
 }

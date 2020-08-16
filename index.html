@@ -12,37 +12,55 @@
     <header class="header">
         <button class="header__burger-menu nav-item nav-item--icon--burger" type="button"></button>
         <img class="header__logo" src="images/icons/logo.svg" alt="Логотип CPS">
-        <span class="header__decoration-element header__decoration-element--position--between-burger-logo decoration-element"></span>
+        <span
+            class="header__decoration-element header__decoration-element--position--between-burger-logo decoration-element"></span>
         <ul class="header__navigation-items">
             <li class="header__navigation-item nav-item nav-item--icon--call"></li>
             <li class="header__navigation-item nav-item nav-item--icon--chat"></li>
-            <li class="header__navigation-item nav-item nav-item--icon--profile"></li>
-            <li class="header__decoration-element header__decoration-element--position--between-profile-repair nav-item decoration-element"></li>
+            <li class="header__navigation-item header__navigation-item--no-margin nav-item nav-item--icon--profile">
+            </li>
+            <li
+                class="header__decoration-element header__decoration-element--position--between-profile-repair nav-item decoration-element">
+            </li>
             <li class="header__navigation-item nav-item nav-item--icon--repair"></li>
-            <li class="header__navigation-item nav-item nav-item--icon--check-status"></li>
+            <li
+                class="header__navigation-item header__navigation-item--no-margin nav-item nav-item--icon--check-status">
+            </li>
         </ul>
     </header>
     <main class="main">
-        <h1 class="main__title">Услуги и сервисы</h1>
-        <ul class="main__navigation">
-            <li class="main__navigation-item main__navigation-item--active"><a class="link" href="#">Ремонтируемые устройства</a></li>
-            <li class="main__navigation-item"><a class="link" href="#">Дополнительные услуги</a></li>
-            <li class="main__navigation-item"><a class="link" href="#">Цены на услуги</a></li>
-            <li class="main__navigation-item"><a class="link" href="#">Специальные цены</a></li>
-            <li class="main__navigation-item"><a class="link" href="#">Отзывы</a></li>
-        </ul>
-        <section class="main__content about-us">
-            <div class="about-us__text-container">
-                <p class="about-us__text">
-                    Мы являемся авторизованным сервисным центром по ремонту техники Dell. Только у нас вы можете
-                    отремонтировать свой ноутбук Dell с официальной гарантией производителя.
-                </p>
-                <p class="about-us__link-to-full-text">
-                    Читать далее
-                </p>
-            </div>
-            <img class="about-us__image" src="images/green-logo.jpg" alt="Фотография логотипа компании">
-        </section>
+        <div class="main__container">
+            <h1 class="main__title">Услуги и сервисы</h1>
+            <ul class="main__navigation">
+                <li class="main__navigation-item main__navigation-item--active"><a class="link" href="#">Ремонтируемые
+                        устройства</a></li>
+                <li class="main__navigation-item"><a class="link" href="#">Дополнительные услуги</a></li>
+                <li class="main__navigation-item"><a class="link" href="#">Цены на услуги</a></li>
+                <li class="main__navigation-item"><a class="link" href="#">Специальные цены</a></li>
+                <li class="main__navigation-item"><a class="link" href="#">Отзывы</a></li>
+            </ul>
+            <section class="main__content about-us">
+                <div class="about-us__text-container">
+                    <div class="about-us__text-container-inner">
+                        <p class="about-us__text about-us__text--bottom-space">
+                            Мы являемся авторизованным сервисным центром по ремонту техники Dell. Только у нас вы можете
+                            отремонтировать свой ноутбук Dell с официальной гарантией производителя.
+                        </p>
+                        <p class="about-us__text about-us__text--display--size-m">
+                            Мы успешно работаем с 1992 года и заслужили репутацию надежного партнера<span
+                                class="about-us__hidden-text about-us__hidden-text--display--size-l">, что подтверждает
+                                большое количество постоянных клиентов. Мы гордимся тем, что к нам обращаются по
+                                рекомендациям
+                                и, в свою очередь, советуют нас родным и близким.</span>
+                        </p>
+                    </div>
+                    <div class="about-us__link-to-full-text">
+                        Читать далее
+                    </div>
+                </div>
+                <img class="about-us__image" src="images/green-logo.png" alt="Фотография логотипа компании">
+            </section>
+        </div>
     </main>
 </body>
 
