@@ -11,3 +11,11 @@
         margin-left: 48px;
     }
 }
+
+@media (min-width: 1120px){
+    .about-us__image {
+        max-width: 531px;
+        border-radius: 10px;
+        margin-left: 36px;
+    }
+}

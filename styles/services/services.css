@@ -1,0 +1,9 @@
+.services {
+    display: none;
+}
+
+@media (min-width: 1120px) {
+    .services {
+        display: flex;
+    }
+}

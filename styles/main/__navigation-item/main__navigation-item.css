@@ -4,9 +4,20 @@
     list-style: none;
 
     line-height: 24px;
-    margin-right: 16px;
+    margin-left: 16px;
 }
 
-.main__navigation-item:last-child {
-    margin-right: 0;
+.main__navigation-item:first-child {
+    margin-left: 0;
+}
+
+@media (min-width: 1120px) {
+    .main__navigation-item {
+        margin-left: 28px;
+        margin-bottom: 14px;
+    }
+
+    .main__navigation-item:first-child {
+        margin-left: 0;
+    }
 }

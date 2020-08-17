@@ -1,0 +1,9 @@
+.main__navigation-item--hidden-size-l {
+    display: list-item;
+}
+
+@media (min-width: 1120px) {
+    .main__navigation-item--hidden-size-l {
+        display: none;
+    }
+}

@@ -7,3 +7,9 @@
         padding: 24px;
     }
 }
+
+@media (min-width: 1120px){
+    .main__container {
+        padding: 32px;
+    }
+}
