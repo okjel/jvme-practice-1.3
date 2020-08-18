@@ -1,5 +1,7 @@
 
 .page {
+    box-sizing: border-box;
+
     color: #1B1C21;
     font-family: 'TT Lakes', sans-serif;
     background-color: #fff;
