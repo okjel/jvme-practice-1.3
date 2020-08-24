@@ -1,0 +1,26 @@
+.services {
+    display: none;
+}
+
+@media (min-width: 1120px) {
+    .services {
+        display: flex;
+    }
+}
+
+.services__item {
+    list-style: none;
+    margin-left: 32px;
+}
+
+.services__item-icon {
+    margin-left: 9px;
+    
+    background-color: initial;
+}
+
+.services__item-link {
+    display: flex;
+    align-items: center;
+}
+

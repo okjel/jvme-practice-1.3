@@ -1,9 +1,0 @@
- .header__navigation-item--no-margin {
-     
- }
-
- @media (min-width: 768px){
-    .header__navigation-item--no-margin {
-        margin-right: 0;
-    }
-}

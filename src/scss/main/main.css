@@ -1,0 +1,148 @@
+.main {
+    background-color: #F8F8F8;
+}
+
+.main__container {
+    padding: 24px 16px;
+}
+
+@media (min-width: 768px){
+    .main__container {
+        padding: 24px;
+    }
+}
+
+@media (min-width: 1120px){
+    .main__container {
+        padding: 32px;
+    }
+}
+
+.main__content {
+
+}
+
+
+.main__header {
+    display: flex;
+    text-align: center;
+    margin-bottom: 24px;
+}
+
+@media (min-width: 768px) {
+    .main__header {
+        margin-bottom: 32px;
+    }
+}
+
+@media (min-width: 1120px) {
+    .main__header {
+        margin-bottom: 8px;
+    }
+}
+
+.main__navigation {
+    display: flex;
+    flex-wrap: nowrap;
+    margin-bottom: 24px;
+    letter-spacing: -0.2px;
+    
+    align-items: center;
+
+    overflow-x: scroll;
+}
+
+@media (min-width: 1120px) {
+    .main__navigation {
+        flex-wrap: wrap;
+    
+        overflow-x: hidden;
+    }
+}
+
+.main__navigation-item {
+    flex-shrink: 0;
+
+    list-style: none;
+
+    line-height: 24px;
+    margin-left: 16px;
+}
+
+.main__navigation-item:first-child {
+    margin-left: 0;
+}
+
+@media (min-width: 1120px) {
+    .main__navigation-item {
+        margin-left: 28px;
+        margin-bottom: 14px;
+    }
+
+    .main__navigation-item:first-child {
+        margin-left: 0;
+    }
+}
+
+.main__navigation-item--active {
+    background-color: #fff;
+    border: 2px solid #B8FFEC;
+    border-radius: 6px;
+    padding: 10px;
+}
+
+
+.main__navigation-item--display-size-l {
+    display: none;
+}
+
+@media (min-width: 1120px) {
+    .main__navigation-item--display-size-l {
+        display: list-item;
+    }
+}
+
+.main__navigation-item--hidden-size-l {
+    display: list-item;
+}
+
+@media (min-width: 1120px) {
+    .main__navigation-item--hidden-size-l {
+        display: none;
+    }
+}
+
+.main__navigation-item--not-active--size-l {
+    background-color: #fff;
+    border: 2px solid #B8FFEC;
+    border-radius: 6px;
+    padding: 10px;
+}
+
+@media (min-width: 1120px) {
+    .main__navigation-item--not-active--size-l {
+        background-color: initial;
+        border: 0;
+        border-radius: 0;
+        padding: 0;
+    }
+}
+
+.main__title {
+    font-size: 28px;
+    line-height: 40px;
+    letter-spacing: -0.6px;
+    
+    margin-right: auto;
+}
+
+.main__title::before {
+    content: '';
+    display: block;
+    position: absolute;
+    left: -4px;
+    height: 40px;
+    border-right: 8px solid #41F6D7;
+    border-radius: 4px;
+}
+

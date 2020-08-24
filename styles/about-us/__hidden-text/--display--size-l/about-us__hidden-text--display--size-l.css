@@ -1,9 +1,0 @@
-.about-us__hidden-text--display--size-l {
-    
-}
-
-@media (min-width: 1120px){
-    .about-us__hidden-text--display--size-l {
-        display: inline;
-    }
-}

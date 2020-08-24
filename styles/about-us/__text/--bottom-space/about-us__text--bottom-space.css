@@ -1,9 +1,0 @@
-.about-us__text--bottom-space {
-    margin-bottom: 16px;
-}
-
-@media (min-width: 768px){
-    .about-us__text {
-        margin-bottom: 20px;
-    }
-}
