@@ -1,95 +1,92 @@
 <!DOCTYPE html>
-<html class="page" lang="ru">
+<html lang="ru">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Услуги и сервисы</title>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+    content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Услуги и сервисы</title>
 </head>
 
-<body class="page__body">
+<body class="page">
+  <div class="page__container">
     <header class="header">
-        <button class="header__burger-menu nav-item nav-item--icon--burger" type="button"></button>
-        <img class="header__logo" src="img/icons/logo.svg" alt="Логотип CPS">
-        <span
-            class="header__decoration-element header__decoration-element--position--between-burger-logo decoration-element"></span>
-        <ul class="header__navigation-items">
-            <li class="header__navigation-item nav-item nav-item--icon--call"><a class="link" href="#"></a></li>
-            <li class="header__navigation-item nav-item nav-item--icon--chat"><a class="link" href="#"></a></li>
-            <li class="header__navigation-item header__navigation-item--no-margin nav-item nav-item--icon--profile">
-                <a class="link" href="#"></a>
-            </li>
-            <li
-                class="header__decoration-element header__decoration-element--position--between-profile-repair nav-item decoration-element">
-                <a class="link" href="#"></a>
-            </li>
-            <li class="header__navigation-item nav-item nav-item--icon--repair">
-                <a class="link" href="#"></a>
-            </li>
-            <li
-                class="header__navigation-item header__navigation-item--no-margin nav-item nav-item--icon--check-status">
-                <a class="link" href="#"></a>
-            </li>
+      <button class="header__burger-btn burger-btn" type="button"><span></span></button>
+      <img class="header__logo" src="img/icons/logo.svg" alt="Логотип CPS">
+      <nav class="header__navigation">
+        <ul class="navigation">
+          <li class="navigation__item navigation__item--icon--call"><a class="link" href="#"></a></li>
+          <li class="navigation__item navigation__item--icon--chat"><a class="link" href="#"></a></li>
+          <li class="navigation__item navigation__item--icon--profile">
+            <a class="link" href="#"></a>
+          </li>
+          <li class="navigation__item navigation__item--icon--repair">
+            <a class="link" href="#"></a>
+          </li>
+          <li class="navigation__item navigation__item--icon--check-status">
+            <a class="link" href="#"></a>
+          </li>
         </ul>
+      </nav>
     </header>
     <main class="main">
-        <div class="main__container">
-            <div class="main__header">
-                <h1 class="main__title">Услуги и сервисы</h1>
-                <ul class="services">
-                    <li class="services__item">
-                        <a class="services__item-link link link--color--inherit" href="#">
-                            <span class="services__item-text">Оставить заявку</span>
-                            <div class="services__item-icon nav-item nav-item--icon--repair"></div>
-                        </a>
-                    </li>
-                    <li class="services__item">
-                        <a class="services__item-link link link--color--inherit" href="#">
-                            <span class="services__item-text">Статус ремонта</span>
-                            <div class="services__item-icon nav-item nav-item--icon--check-status"></div>
-                        </a>
-                    </li>
-                </ul>
-            </div>
-            <ul class="main__navigation">
-                <li class="main__navigation-item main__navigation-item--active main__navigation-item--display-size-l"><a
-                        class="link link--color--grey" href="#">Ремонтируемые бренды</a></li>
-                <li class="main__navigation-item main__navigation-item--not-active--size-l"><a
-                        class="link link--color--grey" href="#">Ремонтируемые
-                        устройства</a></li>
-                <li class="main__navigation-item main__navigation-item--hidden-size-l"><a class="link link--color--grey"
-                        href="#">Дополнительные услуги</a></li>
-                <li class="main__navigation-item"><a class="link link--color--grey" href="#">Цены на услуги</a></li>
-                <li class="main__navigation-item"><a class="link link--color--grey" href="#">Адреса сервисных
-                        центров</a></li>
-                <li class="main__navigation-item"><a class="link link--color--grey" href="#">Специальные цены</a></li>
-                <li class="main__navigation-item"><a class="link link--color--grey" href="#">Отзывы</a></li>
-            </ul>
-            <section class="main__content about-us">
-                <div class="about-us__text-container">
-                    <div class="about-us__text-container-inner">
-                        <p class="about-us__text about-us__text--bottom-space">
-                            Мы являемся авторизованным сервисным центром по ремонту техники Dell. Только у нас вы можете
-                            отремонтировать свой ноутбук Dell с официальной гарантией производителя.
-                        </p>
-                        <p class="about-us__text about-us__text--display--size-m">
-                            Мы успешно работаем с 1992 года и заслужили репутацию надежного партнера<span
-                                class="about-us__hidden-text about-us__hidden-text--display--size-l">, что подтверждает
-                                большое количество постоянных клиентов. Мы гордимся тем, что к нам обращаются по
-                                рекомендациям
-                                и, в свою очередь, советуют нас родным и близким.</span>
-                        </p>
-                    </div>
-                    <a class="link link--color--inherit" href="#">
-                        <div class="about-us__link-to-full-text">
-                            Читать далее
-                        </div>
-                    </a>
-                </div>
-                <img class="about-us__image" src="./img/green-logo.png" alt="Фотография логотипа компании">
-            </section>
+      <section class="content">
+        <div class="content__header">
+          <h1 class="content__title">Услуги и сервисы</h1>
+          <ul class="services">
+            <li class="services__item">
+              <a class="services__item-link link link--color--inherit" href="#">
+                <span class="services__item-text">Оставить заявку</span>
+                <div class="services__item-icon services__item-icon--icon--repair"></div>
+              </a>
+            </li>
+            <li class="services__item">
+              <a class="services__item-link link link--color--inherit" href="#">
+                <span class="services__item-text">Статус ремонта</span>
+                <div class="services__item-icon services__item-icon--icon--check-status"></div>
+              </a>
+            </li>
+          </ul>
         </div>
+        <ul class="content__navigation nav-tabs">
+          <li class="nav-tabs__item nav-tabs__item--active nav-tabs__item--display-size-l"><a
+              class="link link--color--grey" href="#">Ремонтируемые бренды</a></li>
+          <li class="nav-tabs__item nav-tabs__item--not-active--size-l"><a class="link link--color--grey"
+              href="#">Ремонтируемые
+              устройства</a></li>
+          <li class="nav-tabs__item nav-tabs__item--hidden-size-l"><a class="link link--color--grey"
+              href="#">Дополнительные услуги</a></li>
+          <li class="nav-tabs__item"><a class="link link--color--grey" href="#">Цены на услуги</a></li>
+          <li class="nav-tabs__item"><a class="link link--color--grey" href="#">Адреса сервисных
+              центров</a></li>
+          <li class="nav-tabs__item"><a class="link link--color--grey" href="#">Специальные цены</a></li>
+          <li class="nav-tabs__item"><a class="link link--color--grey" href="#">Отзывы</a></li>
+        </ul>
+        <section class="content__text about-us">
+          <div class="about-us__text-container">
+            <div class="about-us__text-container-inner">
+              <p class="about-us__text about-us__text--bottom-space">
+                Мы являемся авторизованным сервисным центром по ремонту техники Dell. Только у нас вы можете
+                отремонтировать свой ноутбук Dell с официальной гарантией производителя.
+              </p>
+              <p class="about-us__text about-us__text--display--size-m">
+                Мы успешно работаем с 1992 года и заслужили репутацию надежного партнера<span
+                  class="about-us__hidden-text about-us__hidden-text--display--size-l">, что подтверждает
+                  большое количество постоянных клиентов. Мы гордимся тем, что к нам обращаются по
+                  рекомендациям
+                  и, в свою очередь, советуют нас родным и близким.</span>
+              </p>
+            </div>
+            <button class="about-us__link-to-full-text" href="#">
+              Читать далее
+            </button>
+          </div>
+          <img class="about-us__image" src="./img/green-logo.png" alt="Фотография логотипа компании">
+        </section>
+      </section>
     </main>
+  </div>
 </body>
 
 </html>

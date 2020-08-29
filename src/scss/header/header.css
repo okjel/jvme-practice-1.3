@@ -1,19 +1,16 @@
 
 .header {
     display: flex;
+    justify-content: space-between;
+    padding: 19px 16px;
 
     border-bottom: 1px solid #D9FFF5;
-    
-    justify-content: space-around;
     align-items: center;
-
-    padding: 18px 0;
 }
 
 @media (min-width: 768px){
     .header {
-        justify-content: space-between;
-        padding: 24px;
+        padding: 19px 24px;
     }
 }
 
@@ -23,44 +20,31 @@
     }
 }
 
-.header__burger-menu {
-
-}
-
-@media (min-width: 768px){
-    .header__burger-menu {
-        order: 1;
-    }
+.header__burger-btn {
+    margin-right: 16px;
 }
 
 
-.header__decoration-element {
-
-}
-
-@media (min-width: 768px){
-    .header__decoration-element {
-        margin: 0 20px;
-    }
-}
-
-.header__decoration-element--position--between-burger-logo {
-
-}
-
-@media (min-width: 768px){
-    .header__decoration-element--position--between-burger-logo {
-        order: 2;
-    }
-}
-
-.header__decoration-element--position--between-profile-repair {
+.header__burger-btn::after {
     display: none;
+    content: '';
 }
 
 @media (min-width: 768px){
-    .header__decoration-element--position--between-profile-repair {
-        display: list-item;
+    .header__burger-btn {
+        margin-right: 42px;
+    }
+
+    .header__burger-btn::after {
+        display: block;
+        position: absolute;
+        right: -21px;
+        top: 3px;
+        width: 0;
+        height: 32px;
+        border: 1px solid #EAEAEA;
+        border-radius: 1px;
+        content: '';
     }
 }
 
@@ -69,53 +53,6 @@
     height: 50px;
 }
 
-
-@media (min-width: 768px){
-    .header__logo {
-        margin-right: auto;
-        
-        order: 3;
-    }
-}
-
-.header__navigation-item--no-margin {
-     
-}
-
-@media (min-width: 768px){
-   .header__navigation-item--no-margin {
-       margin-right: 0;
-   }
-}
-
-.header__navigation-item {
-
-}
-
-@media (min-width: 768px){
-    .header__navigation-item {
-        margin-right: 16px;
-    }
-
-    .header__navigation-item:last-child,
-    .header__navigation-item:nth-child(3) {
-        margin-right: 0;
-    }
-}
-
-.header__navigation-items {
-    display: flex;
-    margin: 0;
-    padding: 0;
-    width: 28%;
-
-    justify-content: space-between;
-    align-items: center;
-}
-
-@media (min-width: 768px){
-    .header__navigation-items {
-        width: 290px;
-        order: 4;
-    }
+.header__navigation {
+    margin-left: auto;
 }
