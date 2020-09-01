@@ -13,12 +13,12 @@
     display: none;
 }
 
-.about-us__hidden-text--display--size-l {
+.about-us__hidden-text--display_size-l {
     display: none;
 }
 
 @media (min-width: 1120px){
-    .about-us__hidden-text--display--size-l {
+    .about-us__hidden-text--display_size-l {
         display: inline;
     }
 }
@@ -100,12 +100,12 @@
     }
 }
 
-.about-us__text--display--size-m {
+.about-us__text--display_size-m {
     display: none;
 }
 
 @media (min-width: 768px){
-    .about-us__text--display--size-m {
+    .about-us__text--display_size-m {
         display: initial;
     }
 }

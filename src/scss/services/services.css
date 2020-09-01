@@ -19,7 +19,7 @@
     background-color: initial;
 }
 
-.services__item-icon--icon--repair {
+.services__item-icon--icon_repair {
     width: 40px;
     height: 40px;
     margin-left: 16px;
@@ -31,7 +31,7 @@
     background-position: center;
 }
 
-.services__item-icon--icon--check-status {
+.services__item-icon--icon_check-status {
     width: 40px;
     height: 40px;
     margin-left: 16px;

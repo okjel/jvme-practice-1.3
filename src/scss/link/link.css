@@ -4,10 +4,10 @@
     height: 100%;
 }
 
-.link--color--grey {
+.link--color_grey {
     color: #7E7E82;
 }
 
-.link--color--inherit {
+.link--color_inherit {
     color: inherit;
 }

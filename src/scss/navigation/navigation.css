@@ -15,47 +15,47 @@
     background-position: center;
 }
 
-.navigation__item--icon--call {
+.navigation__item--icon_call {
     display: none;
     background-image: url("../../img/icons/call.svg");
 }
 
 @media (min-width: 768px) {
-    .navigation__item--icon--call {
+    .navigation__item--icon_call {
         display: block;
     }
 }
 
-.navigation__item--icon--chat {
+.navigation__item--icon_chat {
     display: none;
     background-image: url("../../img/icons/chat.svg");
 }
 
 @media (min-width: 768px) {
-    .navigation__item--icon--chat {
+    .navigation__item--icon_chat {
         display: block;
     }
 }
 
-.navigation__item--icon--profile {
+.navigation__item--icon_profile {
     display: none;
     background-image: url("../../img/icons/profile.svg");
 }
 
 @media (min-width: 768px) {
-    .navigation__item--icon--profile {
+    .navigation__item--icon_profile {
         display: block;
     }
 }
 
-.navigation__item--icon--repair {
+.navigation__item--icon_repair {
     display: block;
     position: relative;
     background-image: url("../../img/icons/repair.svg");
     margin-left: 42px;
 }
 
-.navigation__item--icon--repair::before {
+.navigation__item--icon_repair::before {
     position: absolute;
     left: -21px;
     top: 3px;
@@ -66,7 +66,7 @@
     content: '';
 }
 
-.navigation__item--icon--check-status {
+.navigation__item--icon_check-status {
     display: block;
     background-image: url("../../img/icons/check-status.svg");
 }

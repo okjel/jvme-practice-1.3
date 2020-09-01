@@ -68,7 +68,7 @@
     }
 }
 
-.nav-tabs__item--not-active--size-l {
+.nav-tabs__item--not-active_size-l {
     background-color: #fff;
     border: 2px solid #B8FFEC;
     border-radius: 6px;
@@ -76,7 +76,7 @@
 }
 
 @media (min-width: 1120px) {
-    .nav-tabs__item--not-active--size-l {
+    .nav-tabs__item--not-active_size-l {
         background-color: initial;
         border: 0;
         border-radius: 0;
