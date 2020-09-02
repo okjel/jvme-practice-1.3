@@ -21,11 +21,11 @@
     height: 100%;
 }
 
-.link--color--grey {
+.link--color_grey {
     color: #7E7E82;
 }
 
-.link--color--inherit {
+.link--color_inherit {
     color: inherit;
 }
 
@@ -114,12 +114,12 @@
     display: none;
 }
 
-.about-us__hidden-text--display--size-l {
+.about-us__hidden-text--display_size-l {
     display: none;
 }
 
 @media (min-width: 1120px){
-    .about-us__hidden-text--display--size-l {
+    .about-us__hidden-text--display_size-l {
         display: inline;
     }
 }
@@ -201,12 +201,12 @@
     }
 }
 
-.about-us__text--display--size-m {
+.about-us__text--display_size-m {
     display: none;
 }
 
 @media (min-width: 768px){
-    .about-us__text--display--size-m {
+    .about-us__text--display_size-m {
         display: initial;
     }
 }
@@ -255,7 +255,7 @@
     background-color: initial;
 }
 
-.services__item-icon--icon--repair {
+.services__item-icon--icon_repair {
     width: 40px;
     height: 40px;
     margin-left: 16px;
@@ -267,7 +267,7 @@
     background-position: center;
 }
 
-.services__item-icon--icon--check-status {
+.services__item-icon--icon_check-status {
     width: 40px;
     height: 40px;
     margin-left: 16px;
@@ -362,47 +362,47 @@
     background-position: center;
 }
 
-.navigation__item--icon--call {
+.navigation__item--icon_call {
     display: none;
     background-image: url(./static/call.svg);
 }
 
 @media (min-width: 768px) {
-    .navigation__item--icon--call {
+    .navigation__item--icon_call {
         display: block;
     }
 }
 
-.navigation__item--icon--chat {
+.navigation__item--icon_chat {
     display: none;
     background-image: url(./static/chat.svg);
 }
 
 @media (min-width: 768px) {
-    .navigation__item--icon--chat {
+    .navigation__item--icon_chat {
         display: block;
     }
 }
 
-.navigation__item--icon--profile {
+.navigation__item--icon_profile {
     display: none;
     background-image: url(./static/profile.svg);
 }
 
 @media (min-width: 768px) {
-    .navigation__item--icon--profile {
+    .navigation__item--icon_profile {
         display: block;
     }
 }
 
-.navigation__item--icon--repair {
+.navigation__item--icon_repair {
     display: block;
     position: relative;
     background-image: url(./static/repair.svg);
     margin-left: 42px;
 }
 
-.navigation__item--icon--repair::before {
+.navigation__item--icon_repair::before {
     position: absolute;
     left: -21px;
     top: 3px;
@@ -413,7 +413,7 @@
     content: '';
 }
 
-.navigation__item--icon--check-status {
+.navigation__item--icon_check-status {
     display: block;
     background-image: url(./static/check-status.svg);
 }
@@ -545,7 +545,7 @@
     }
 }
 
-.nav-tabs__item--not-active--size-l {
+.nav-tabs__item--not-active_size-l {
     background-color: #fff;
     border: 2px solid #B8FFEC;
     border-radius: 6px;
@@ -553,7 +553,7 @@
 }
 
 @media (min-width: 1120px) {
-    .nav-tabs__item--not-active--size-l {
+    .nav-tabs__item--not-active_size-l {
         background-color: initial;
         border: 0;
         border-radius: 0;
